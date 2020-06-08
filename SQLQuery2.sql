@@ -1,7 +1,5 @@
-delete from TOURO_URLS
 
-select * from CURRENT_QUEUE
-select * from HTMLS
+create database DS2_PROJ
 use DS2_PROJ
 
 create table HTMLS(
@@ -40,3 +38,4 @@ create table TOURO_URLS(
 		constraint [PK_TU] primary key(ScrapedInfo)
 
 )
+

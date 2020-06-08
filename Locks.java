@@ -10,6 +10,7 @@ public class Locks {
 	private Object el_LOCK;
 	private Object date_LOCK;
 	private Object time_LOCK;
+	private Object html_LOCK;
 		
 	public Locks() {
 		this.url_LOCK  = new  Object();
@@ -19,6 +20,7 @@ public class Locks {
 		this.el_LOCK = new  Object();
 		this.date_LOCK = new  Object();
 		this.time_LOCK = new  Object();
+		this.html_LOCK = new Object();
 	}
 	
 	public Object getUrl_LOCK() {
@@ -42,6 +44,7 @@ public class Locks {
 	public Object getTime_LOCK() {
 		return time_LOCK;
 	}
-	
-	
+	public Object getHTML_LOCK() {
+		return html_LOCK;
+	}
 }
